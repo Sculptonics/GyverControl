@@ -458,7 +458,7 @@ void printName() {
 #define POS_1 4
 #define POS_2 9
 
-#if (USE_CO2 == 1)
+#if (USE_MHZ19B == 1)
 #if (CO2_PIN == 2)
 #if (DALLAS_SENS1 == 1)
 #define POS_1 3

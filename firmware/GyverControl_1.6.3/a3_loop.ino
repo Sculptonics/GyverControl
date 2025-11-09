@@ -38,7 +38,7 @@ void loop() {
     if (millis() - commonTimer > 1000) {
       commonTimer += 1000;
       timersTick();
-#if (USE_CO2 == 0)
+#if (USE_MHZ19B == 0)
       if (currentChannel == -1) {
         if (debugPage == 0) redrawDebug();
 #if (PID_AUTOTUNE == 1)
@@ -48,7 +48,7 @@ void loop() {
       }
 #endif
     }
-#if (USE_CO2 == 1)
+#if (USE_MHZ19B == 1)
     static uint32_t comTimer2;
     if (millis() - comTimer2 > 1500) {
       comTimer2 = millis();

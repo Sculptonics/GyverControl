@@ -543,7 +543,7 @@ void controlTick() {
       return;
     }
 
-#if (USE_CO2 == 1)
+#if (USE_MHZ19B == 1)
     CO2_rst = true;
 #endif
 
@@ -691,7 +691,7 @@ void controlTick() {
     if (currentChannel >= 10) controlState = !controlState;
 #endif
 
-#if (USE_CO2 == 1)
+#if (USE_MHZ19B == 1)
     CO2_rst = true;
 #endif
 
