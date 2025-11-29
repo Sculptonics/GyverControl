@@ -22,7 +22,7 @@ void getAllData() {
 
   sensorVals[1] = constrain(sensorVals[1], 0, 99);
 
-  sensorVals[2] = analogReadAverage(SENS_1) / 4;
+  //sensorVals[2] = analogReadAverage(SENS_1) / 4;//датчик CO2
   sensorVals[3] = analogReadAverage(SENS_2) / 4;
   sensorVals[4] = analogReadAverage(SENS_3) / 4;
   sensorVals[5] = analogReadAverage(SENS_4) / 4;
