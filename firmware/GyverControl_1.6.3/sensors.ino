@@ -55,7 +55,7 @@ void getAllData() {
 #endif
 #endif
 
-#if (USE_MHZ19B == 1)
+#if (USE_CO2 == 1)
 #if (CO2_PIN == 1)
   sensorVals[2] = CO2ppm;
 #elif (CO2_PIN == 2)

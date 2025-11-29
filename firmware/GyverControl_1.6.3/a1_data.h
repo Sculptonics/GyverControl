@@ -546,7 +546,7 @@ const char *directionNames[]  = {
 #define SENS4_NAME "Tmp4"
 #endif
 
-#if (USE_MHZ19B == 1)
+#if (USE_CO2 == 1)
 #if (CO2_PIN == 1)
 #define SENS1_NAME "CO2"
 #elif (CO2_PIN == 2)
