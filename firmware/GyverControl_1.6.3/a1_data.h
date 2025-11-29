@@ -524,7 +524,7 @@ const char *directionNames[]  = {
 };
 
 // названия
-#define SENS1_NAME "Sen1"
+#define SENS1_NAME "CO2"
 #define SENS2_NAME "Sen2"
 #define SENS3_NAME "Sen3"
 #define SENS4_NAME "Sen4"
